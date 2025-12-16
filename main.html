@@ -8,6 +8,65 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+
+	<h2>job application form</h2>
+	<form method="post" action="#">
+
+		<div>
+		<label for="Name">Name</label>
+		<input type="text" id="name" name="name" required><br>
+		</div>
+
+		<div>
+			<label for="Email">Email</label>
+			<input type="Email" id="email" name="email" required><br>
+		</div>
+
+		<div>
+			<span>Gender*</span>
+			<input type="radio" id="male" name="gender" value="male" required>
+			<label for="male"></label>
+
+			<input type="radio" id="female" name="gender" value="female" required>
+			<label for="female"></label>
+
+			<input type="radio" id="other" name="gender" value="other">
+			<label for="other"></label>
+		</div>
+
+
+		<div>
+			<label for="laptop">laptop Brands</label>
+			<select id="laptop" name="laptop">
+				<option value="Apple">Apple</option>
+				<option value="Asus">Asus</option
+			    <option value="HP">HP</option>
+			</select>
+			
+		</div>
+
+		<div>
+			<label for="age">Age</label>
+			<input type="number" id="age" name="age" required>
+		</div>
+
+		<div>
+			<label for="dob">Date of Birth</label>
+			<input type="date" id="dob" name="dob" required>
+		</div>
+
+		<div>
+			<label for="password">Password</label>
+			<input type="password" id="password" name="password" required>
+		</div>
+		<div>
+			<label for="portfolio">Portfolio</label>
+			<input type="url" id="portfolio" name="portfolio" >
+		</div>
+		<div>
+			<button type="submit">Submit</button>
+		</div>
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
